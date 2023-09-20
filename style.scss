@@ -28,7 +28,29 @@ header {
 .theme {
     @include theme-box;
     display: inline-block;
+
+
+    img {
+        width: 70%;
+        display: block;
+        margin: 0 auto;
+        @include my-border-radius;
+    }
+
+
+    a {
+        text-align: center;
+        display: block;
+        width: 100px;
+        margin: 10px auto;
+        @include button;
+
+        &:hover{
+            background: lighten($header-footer-background, 25%);
+        }
+    }
 }
+
 
 footer {
     height: $footer-height;
