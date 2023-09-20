@@ -1,5 +1,6 @@
 @import "partials/variables";
 @import "partials/mixins";
+@import "partials/functions";
 
 body {
     background-color: $body-background;
@@ -17,6 +18,18 @@ header {
     }
 }
 
+.about-us{
+    h2, p{
+        color: $text-color;
+    }
+}
+
+
+.theme {
+    @include theme-box;
+    display: inline-block;
+}
+
 footer {
     height: $footer-height;
     @include header-footer-style;
@@ -25,3 +38,4 @@ footer {
        line-height: $footer-height; 
     } 
 }
+

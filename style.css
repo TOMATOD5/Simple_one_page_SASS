@@ -15,6 +15,15 @@ header h1 {
   line-height: 100px;
 }
 
+.about-us h2, .about-us p {
+  color: black;
+}
+
+.theme {
+  width: 49.45%;
+  display: inline-block;
+}
+
 footer {
   height: 50px;
   background: rgb(14, 15, 103);
