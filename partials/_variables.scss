@@ -14,7 +14,7 @@ $footer-height: 50px;
 
 //DARK THEME
 @if $theme == dark {
-    $body-background: black;
+    $body-background: rgb(32, 32, 32);
     $text-color: white;
     $ordinary-border: 2px solid white;
     $header-footer-background: darken(rgb(14, 15, 103), 5%);
